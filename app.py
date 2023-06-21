@@ -721,7 +721,7 @@ if page == "Homepage":
 # Predict Page
 elif page == "Predict":
     url_repository = "https://github.com/DanielEduardoLopez/CrimePredictionMX"
-    st.write('Uses a neural network trained on the <i>National Survey of Victimization and Perception of Public Safety</i> (INEGI, 2022) to predict crime probabilities. Check out the code [here](%s) and more details at the <h style="color:orange;"><i><b>Homepage<b/></i></h> on the left sidebar. Please don't take the predictions from this app so seriously. 😉' % url_repository, unsafe_allow_html=True)
+    st.write('Uses a neural network trained on the <i>National Survey of Victimization and Perception of Public Safety</i> (INEGI, 2022) to predict crime probabilities. Check out the code [here](%s) and more details at the <h style="color:orange;"><i><b>Homepage<b/></i></h> on the left sidebar. Please do not take the predictions from this app so seriously. 😉' % url_repository, unsafe_allow_html=True)
     st.markdown("")
     st.subheader(":blue[Socioeconomic & Demographic Profile]")
     st.markdown("Please fill the following fields with the appropriate information (No data is stored :innocent:):")
